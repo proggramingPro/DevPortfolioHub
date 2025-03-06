@@ -20,8 +20,7 @@ export default function Skills() {
       <div className="container mx-auto px-4 relative">
         <h2 className="text-3xl font-bold text-center mb-8">Technical Expertise</h2>
         <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
-          Proficient in modern machine learning frameworks and tools, with extensive experience in
-          developing and deploying ML models at scale.
+          This section showcases my technical expertise in modern programming languages and frameworks, with a strong focus on developing and deploying scalable web applications.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {skills.map((skill, i) => (
