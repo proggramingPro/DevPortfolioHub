@@ -32,7 +32,7 @@ export default function Hero() {
             variants={item}
             className="mb-4 text-sm font-medium text-primary"
           >
-            Machine Learning Engineer
+            Back-End Engineer
           </motion.div>
 
           <motion.div
@@ -40,8 +40,8 @@ export default function Hero() {
             className="overflow-hidden"
           >
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-              Building Intelligent Systems with 
-              <span className="bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent"> AI & Machine Learning</span>
+              Build Systems in
+              <span className="bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent"> Back-end</span>
             </h1>
           </motion.div>
 
@@ -49,8 +49,7 @@ export default function Hero() {
             variants={item}
             className="mt-6 text-xl text-muted-foreground"
           >
-            Specializing in developing scalable ML solutions, from research to production. 
-            Transforming complex data into actionable insights through advanced algorithms and deep learning.
+            Hi, I’m <span className="bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent"> Ranjit D. Pawar</span>, a Back-End Engineer passionate about building scalable and efficient systems for modern applications. I specialize in designing robust architectures, optimizing performance, and ensuring seamless data flow between services.
           </motion.p>
 
           <motion.div
@@ -67,7 +66,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                View ML Projects
+                View Projects
               </motion.a>
             </Button>
             <Button
