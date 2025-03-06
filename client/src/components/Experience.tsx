@@ -3,22 +3,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const experiences = [
   {
-    title: "Senior Full Stack Developer",
-    company: "Tech Corp",
-    period: "2020 - Present",
-    description: "Led development of enterprise applications using React and Node.js"
+    title: "Back-End Developer",
+    company: "PBL Project",
+    period: "FY-SEM II",
+    description: "Led development of learning application using Node.js"
   },
   {
-    title: "Full Stack Developer",
-    company: "Digital Agency",
-    period: "2018 - 2020",
-    description: "Built and maintained client websites and applications"
-  },
-  {
-    title: "Frontend Developer",
-    company: "Startup Inc",
-    period: "2016 - 2018",
-    description: "Developed responsive web applications using modern JavaScript frameworks"
+    title: "Back-End Development and Deploy",
+    company: "Design Thinking Project",
+    period: "SY-SEM I",
+    description: "Built and maintained Student Collaboration websites and Datbase"
   }
 ];
 
