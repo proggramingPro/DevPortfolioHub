@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
-import { SiPython, SiTensorflow, SiPytorch, SiScikitlearn, SiKeras, SiOpencv, SiPandas, SiJupyter } from "react-icons/si";
+import { SiPython, SiCpp, SiC, SiNode, SiHtml, SiCss, SiPandas, SiJava } from "react-icons/si";
 
 const skills = [
   { icon: SiPython, name: "Python" },
-  { icon: SiTensorflow, name: "TensorFlow" },
-  { icon: SiPytorch, name: "PyTorch" },
-  { icon: SiScikitlearn, name: "Scikit-learn" },
-  { icon: SiKeras, name: "Keras" },
-  { icon: SiOpencv, name: "OpenCV" },
+  { icon: SiCpp, name: "C++" },
+  { icon: SiC, name: "C" },
+  { icon: SiNode, name: "Node.Js" },
+  { icon: SiHtml, name: "HTML" },
+  { icon: SiCss, name: "CSS" },
   { icon: SiPandas, name: "Pandas" },
-  { icon: SiJupyter, name: "Jupyter" },
+  { icon: SiJava, name: "Java" },
 ];
 
 export default function Skills() {
