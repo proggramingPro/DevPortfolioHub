@@ -5,28 +5,20 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Neural Network Image Classifier",
-    description: "Deep learning model for real-time image classification using transfer learning with EfficientNet",
+    title: "CodeIT",
+    description: "Educational Website for Students to learn programming languages at a single platform ",
     image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
-    tech: ["PyTorch", "OpenCV", "Docker"],
-    github: "https://github.com",
+    tech: ["HTML", "EJS", "Node.Js", "CSS", "JavaScript"],
+    github: "https://github.com/proggramingPro/CodeIT",
     demo: "https://demo.com"
   },
   {
-    title: "NLP Sentiment Analysis",
-    description: "BERT-based sentiment analysis system for social media monitoring with 95% accuracy",
-    image: "https://images.unsplash.com/photo-1516110833967-0b5716ca1387",
-    tech: ["Transformers", "TensorFlow", "Flask"],
-    github: "https://github.com",
-    demo: "https://demo.com"
-  },
-  {
-    title: "Time Series Forecasting",
-    description: "Advanced forecasting model using LSTM networks for predicting market trends",
-    image: "https://images.unsplash.com/photo-1642543492481-44e81e3914a7",
-    tech: ["Keras", "Pandas", "Plotly"],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    title: "WorkZone",
+    description: "Collabrative Platform For coders, developers and learners to collaborate and make new things together.",
+    image: "https://www.shutterstock.com/image-vector/creative-business-team-freelancers-partners-600nw-1861971841.jpg",
+    tech: ["EJS", "MongoDb", "Node.Js"],
+    github: "https://github.com/proggramingPro/my-site",
+    demo: "https://workzone-05r2.onrender.com"
   }
 ];
 
@@ -34,10 +26,10 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">ML Projects</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">MY Projects</h2>
         <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
-          A selection of my machine learning projects, demonstrating expertise in 
-          computer vision, natural language processing, and predictive analytics.
+          A selection of my Web projects, demonstrating expertise in Web Developement.
+         
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, i) => (
