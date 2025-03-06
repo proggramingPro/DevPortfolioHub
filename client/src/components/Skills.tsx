@@ -31,9 +31,10 @@ export default function Skills() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1 }}
+              viewport={{ once: true }}
               className="flex flex-col items-center gap-4 p-6 rounded-lg bg-card/80 backdrop-blur-sm hover:bg-card/90 transition-colors"
             >
-              <skill.icon className="w-12 h-12 text-primary" />
+              {React.createElement(skill.icon, { className: "w-12 h-12 text-primary" })}
               <span className="font-medium">{skill.name}</span>
             </motion.div>
           ))}
