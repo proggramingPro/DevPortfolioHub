@@ -1,13 +1,14 @@
+import React from "react";
 import { motion } from "framer-motion";
-import { SiPython, SiCpp, SiC, SiNode, SiHtml, SiCss, SiPandas, SiJava } from "react-icons/si";
+import { SiPython, SiCplusplus, SiC, SiNodedotjs, SiHtml5, SiCss3, SiPandas, SiJava } from "react-icons/si";
 
 const skills = [
   { icon: SiPython, name: "Python" },
-  { icon: SiCpp, name: "C++" },
+  { icon: SiCplusplus, name: "C++" },
   { icon: SiC, name: "C" },
-  { icon: SiNode, name: "Node.Js" },
-  { icon: SiHtml, name: "HTML" },
-  { icon: SiCss, name: "CSS" },
+  { icon: SiNodedotjs, name: "Node.js" },
+  { icon: SiHtml5, name: "HTML" },
+  { icon: SiCss3, name: "CSS" },
   { icon: SiPandas, name: "Pandas" },
   { icon: SiJava, name: "Java" },
 ];
